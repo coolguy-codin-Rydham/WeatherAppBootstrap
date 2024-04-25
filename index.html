@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <title>Weather in App</title>
+    <title>Weather App</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -15,20 +15,20 @@
   </head>
   <body>
     <div class="container my-5">
-      <h1 class="text-center title">Weather in</h1>
+      <h1 class="text-center title">Weather In</h1>
       <form class="search-loaction">
         <input
           type="text"
           name="city"
           placeholder="What city?"
           autocomplete="off"
-          class="form-control text-muted form-rounded p-4 shadow-sm"
+          class="p-4 shadow-sm form-control text-muted form-rounded"
         />
       </form>
 
-      <div class="card rounded my-3 shadow-lg d-none back-card">
-        <div class="card-top text-center">
-          <div class="city-name my-3">
+      <div class="my-3 rounded shadow-lg card d-none back-card">
+        <div class="text-center card-top">
+          <div class="my-3 city-name">
             <p>Abuja</p>
             <span>...</span>
           </div>
@@ -37,7 +37,7 @@
 
         <div class="card-body">
           <div class="card-mid row">
-            <div class="col-8 text-center temp">
+            <div class="text-center col-8 temp">
               <span>30&deg;C</span>
             </div>
             <div class="col-4 condition-temp">
@@ -47,15 +47,15 @@
             </div>
           </div>
 
-          <div class="icon-container card shadow mx-auto">
+          <div class="mx-auto shadow icon-container card">
             <img src="img/cloud.svg" alt="" />
           </div>
-          <div class="card-bottom px-5 py-4 row">
-            <div class="col text-center">
+          <div class="px-5 py-4 card-bottom row">
+            <div class="text-center col">
               <p>30&deg;C</p>
               <span>Feels Like</span>
             </div>
-            <div class="col text-center">
+            <div class="text-center col">
               <p>55%</p>
               <span>Humidity</span>
             </div>
