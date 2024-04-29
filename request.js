@@ -8,7 +8,7 @@ const requestCity = async (city) => {
 
     //promise data
     const data = await response.json();
-    // console.log(data);
+    console.log(data);
     return data;
 
 }
