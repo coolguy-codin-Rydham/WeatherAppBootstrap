@@ -55,8 +55,6 @@ updateWeatherApp = (city) => {
           
           
     `;
-
-    card.innerHTML=card.innerHTML+card.innerHTML;
   if (isDayTime(imageName)) {
     // console.log('day');
     timeImage.setAttribute("src", "img/day_image.svg");
