@@ -5,4 +5,4 @@ This Weather App is a client-side HTML, CSS, JavaScript application that interac
 Well If this Project helps get me a cup of coffee :). 
 
 
-PS: O hate Bootstrap. Please hate it with me.
+PS: I hate Bootstrap. Please hate it with me.
